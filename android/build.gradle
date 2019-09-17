@@ -44,7 +44,10 @@ repositories {
 }
 
 dependencies {
-    implementation fileTree(dir: "libs", include: ["*.jar"])
+    implementation 'com.getui:sdk:2.13.3.0'
+    implementation 'com.getui:hwp:1.0.6'
+    implementation 'com.getui:mzp:1.0.7'
+    implementation 'com.getui:xmp:1.0.5'
     implementation "com.android.support:support-v4:25+"
     implementation "com.facebook.react:react-native:+"  // From node_modules
 }
